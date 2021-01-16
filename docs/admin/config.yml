@@ -9,8 +9,9 @@ backend:
 media_folder: 'images/uploads'
 
 collections:
-  - name: 'editable_pages'
+  - name: 'edit_about'
+    label: 'about'
     files:
       - file: 'about.Rmd'
     fields:
-      - { name: Title }
+      - {label: "Title", name: "title", widget: "string"}

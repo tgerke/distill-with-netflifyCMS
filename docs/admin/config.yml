@@ -13,5 +13,5 @@ collections:
     label: 'about'
     files:
       - file: 'about.Rmd'
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
+    fields:
+      - {label: "Title", name: "title", widget: "string"}

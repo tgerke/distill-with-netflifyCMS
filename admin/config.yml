@@ -12,4 +12,6 @@ collections:
   - name: 'edit_about'
     label: 'about'
     files:
-      - {file: 'about.Rmd', label: "Title", name: "title", widget: "string"}
+      - file: 'about.Rmd'
+      fields:
+      - {label: "Title", name: "title", widget: "string"}

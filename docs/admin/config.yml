@@ -1,0 +1,16 @@
+# config.yml
+
+backend:
+  name: github
+  repo: tgerke/distill-with-netflifyCMS
+  branch: main
+  site_domain: suspicious-banach-9942aa.netlify.app
+
+media_folder: 'images/uploads'
+
+collections:
+  - name: 'editable_pages'
+    files:
+      - file: 'about.Rmd'
+    fields:
+      - { name: Title }
